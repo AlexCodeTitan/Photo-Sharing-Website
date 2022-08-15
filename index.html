@@ -72,7 +72,12 @@
             hic aliquam, sit totam adipisci?
           </p>
           <div class="d-flex flex-sm-row flex-column mt-4">
-            <button class="btn btn-danger btn-lg shadow">
+            <button
+              class="btn btn-danger btn-lg shadow"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#email"
+            >
               <i class="bi bi-envelope"></i> Email Me Here
             </button>
             <span class="fs-2 mt-5 mt-sm-0">
@@ -99,16 +104,369 @@
         </div>
       </div>
       <!-- TODO: HEADER > FORM -->
+      <div class="modal fade" id="email" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header bg-danger">
+              <div class="modal-title text-white">Book a shoot</div>
+              <button
+                class="btn-close btn-close-white"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form action="#" class="row g-3">
+                <div class="col-md-6">
+                  <label for="" class="form-label">First Name</label
+                  ><input type="text" class="form-control" placeholder="Alex" />
+                </div>
+                <div class="col-md-6">
+                  <label for="" class="form-label">Last Name</label
+                  ><input
+                    type="text"
+                    class="form-control"
+                    placeholder="Aandonesei"
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="" class="form-label">Address</label
+                  ><input
+                    type="text"
+                    class="form-control"
+                    placeholder="1234 Main Str."
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="" class="form-label">Shoot Location</label
+                  ><input
+                    type="text"
+                    class="form-control"
+                    placeholder="4321 Second Str."
+                  />
+                </div>
+                <div class="col-md-5">
+                  <label for="" class="form-label">City</label
+                  ><input
+                    type="text"
+                    class="form-control"
+                    placeholder="Bucharest"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="" class="form-label">State</label>
+                  <select class="form-select">
+                    <option selected>Choose...</option>
+                    <option>State 1</option>
+                    <option>State 2</option>
+                    <option>State 3</option>
+                    <option>State 4</option>
+                    <option>State 5</option>
+                    <option>State 6</option>
+                    <option>State 7</option>
+                    <option>State 8</option>
+                    <option>State 9</option>
+                    <option>State 10</option>
+                    <option>State 11</option>
+                    <option>State 12</option>
+                  </select>
+                </div>
+                <div class="col-md-3">
+                  <label for="" class="form-label">Zip</label
+                  ><input
+                    type="text"
+                    class="form-control"
+                    placeholder="342873"
+                  />
+                </div>
+                <div class="col-12 mt-3">
+                  <a
+                    href="#"
+                    class="text-link"
+                    role="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#terms_services"
+                    >Terms of servises.</a
+                  >
+                  <div class="form-check mt-1">
+                    <input type="checkbox" class="form-check-input" />
+                    <label class="form-check-label">I agree</label>
+                  </div>
+                  <button
+                    type="submit"
+                    class="btn btn-outline-primary mt-3 w-100"
+                  >
+                    Send
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- TODO: HEADER > FORM > TERMS OF SERVICE -->
+      <div
+        class="modal fade"
+        id="terms_services"
+        aria-hidden="true"
+        tabindex="-1"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header bg-danger">
+              <h5 class="modal-title text-white">Terms of Service</h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="modal"
+              ></button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              exercitationem necessitatibus facere illum, vitae adipisci
+              perferendis, tenetur dignissimos illo dolorem quam. Unde iste
+              officiis voluptatibus, omnis blanditiis rem adipisci doloribus
+              quasi sequi vitae autem, et perspiciatis debitis ab ut commodi
+              veniam velit ad minima incidunt possimus temporibus nulla
+              reprehenderit. Quis reiciendis culpa dolores aspernatur provident,
+              id veritatis in expedita quae voluptas rerum iusto soluta
+              repudiandae exercitationem deleniti odio ratione excepturi nam.
+              Repudiandae doloribus autem consectetur nostrum quas, deserunt
+              magni. Numquam est magni perferendis consequatur voluptas dolorem
+              consectetur porro, cum aut quibusdam atque beatae rem sed quidem
+              quasi necessitatibus. Quaerat soluta, facere ea placeat molestias
+              id sit sed labore expedita ut laudantium! Doloribus iure
+              aspernatur nisi dicta quia necessitatibus repellendus porro amet,
+              quo accusamus, provident voluptatem non modi at commodi incidunt,
+              similique cumque repudiandae. Ducimus autem at harum omnis
+              delectus magnam in et, natus itaque veritatis quibusdam
+              consectetur enim exercitationem ratione officiis praesentium.
+              Necessitatibus nisi illum voluptatibus voluptate tenetur doloribus
+              nihil! Aspernatur veniam minus et? Dicta aliquid nulla molestiae
+              omnis ex nihil eveniet, odit optio sint cum culpa vitae quis ea
+              tenetur neque eligendi recusandae laborum a maiores expedita, vel
+              aperiam. Voluptatem quos veritatis id! Voluptatem praesentium,
+              corporis dolorem quod minus ipsa ex. Nihil cupiditate provident
+              eaque iste quos explicabo officiis, corrupti nostrum, animi alias
+              ullam possimus. Harum deleniti laboriosam enim quasi quis iusto
+              repudiandae perspiciatis fugit culpa at velit eveniet rerum
+              aliquam esse quas, voluptatibus repellendus rem, officia nemo
+              reiciendis. Possimus animi cumque ipsam distinctio! Sint eveniet
+              nobis vero error, commodi odit quo sed doloremque. Temporibus
+              saepe sapiente earum molestias, cum laboriosam sunt amet quaerat
+              obcaecati nihil quod sint itaque? Non, repellat? Maxime
+              reprehenderit doloribus odit, quis consequatur repellat
+              voluptatibus nobis nostrum doloremque eaque, cum ipsa qui corrupti
+              iure eos! Praesentium molestias eos ea deserunt doloribus, nemo
+              alias vel voluptatem recusandae consectetur harum perspiciatis
+              itaque, illum facere corporis laborum inventore libero sapiente,
+              sint voluptates quos. Non ipsa, ea deleniti facilis inventore aut
+              voluptas tempora reiciendis dolorum unde minus voluptatem
+              voluptates quaerat? Inventore est sequi, iste molestiae hic
+              possimus ex explicabo necessitatibus veritatis cupiditate.
+              Praesentium tenetur architecto delectus, error aliquid ex corporis
+              quas perspiciatis iste distinctio exercitationem omnis ratione
+              impedit consequatur modi ut aperiam. Eveniet, commodi earum nulla
+              quasi, quo eligendi accusamus aliquam explicabo ab, reiciendis
+              cupiditate recusandae quos harum eos illo voluptatibus repellendus
+              odio incidunt enim! Tempora, ipsam? Illum enim nihil ex, maiores
+              neque amet ipsum! Fuga eius dolorum molestiae quod eos! Corrupti
+              magnam error laudantium impedit mollitia, omnis, maxime
+              accusantium quas quia et quam, quibusdam voluptatum? Reprehenderit
+              ratione itaque impedit! Et optio accusantium quam corporis, ab
+              quibusdam adipisci! Exercitationem quae ratione voluptatum
+              suscipit molestiae nihil vel asperiores officia ipsam! Deleniti
+              molestiae nesciunt consectetur eius voluptates. Iure unde mollitia
+              veritatis inventore fugit excepturi ducimus eius molestiae vero
+              consequatur nobis, voluptas accusamus hic deleniti laudantium
+              incidunt architecto non. Fugit expedita at vel odio culpa velit
+              atque, voluptate consectetur neque officiis suscipit delectus
+              aperiam non, doloribus porro tenetur ipsum in dolores, nobis
+              alias. Nulla ratione asperiores repellat voluptas sapiente nisi
+              rerum quam!
+            </div>
+            <div class="modal-footer">
+              <button
+                class="btn btn-danger"
+                type="button"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- TODO: MAIN -->
+    <main>
+      <!-- TODO: MAIN > EXPERIENCE -->
+      <div
+        class="section row flex-row bg-light align-items-center justify-content-around pb-5"
+        id="Experience"
+      >
+        <!-- TODO: MAIN > EXPERIENCE > TITLE -->
+        <div
+          class="col-sm-6 mt-5 text-center text-sm-start"
+          style="width: 500px"
+        >
+          <div
+            class="card-header bg-light font-monospace text-secondary text-uppercase"
+          >
+            Experience
+          </div>
+          <div class="card-body">
+            <h5 class="card-title display-1 fw-bold">
+              I have been capturing memories for the last 10 years.
+            </h5>
+            <p class="card-text text-secondary mt-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              blanditiis tempore quo sit accusamus provident impedit obcaecati
+              aliquid sunt et perspiciatis iusto voluptatibus culpa, nobis
+              magnam beatae! Exercitationem, unde autem.
+            </p>
+          </div>
+        </div>
+        <!-- TODO: MAIN > EXPERIENCE > PHOTOS -->
+        <div class="div col-sm-6">
+          <div
+            class="row gy-5 row-cols-1 row-cols-md-2 text-centered text-sm-start mx-5 mx-sm-0"
+          >
+            <div class="col">
+              <div class="card shadow">
+                <div class="card-body">
+                  <i class="bi bi-camera fs-3 text-danger"></i>
+                  <h4 class="card-title">Portrait Photos</h4>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Similique, praesentium!
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-danger"
+                    role="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#portrait_photos"
+                    >View Photos</a
+                  >
+                  <div
+                    class="modal fade"
+                    id="portrait_photos"
+                    aria-hidden="true"
+                    tabindex="-1"
+                  >
+                    <div class="modal-dialog modal-dialog-center">
+                      <div class="modal-content">
+                        <div class="modal-header bg-danger">
+                          <div class="modal-title text-white">
+                            Portrait Photos
+                          </div>
+                          <button
+                            class="btn-close btn-close-white"
+                            type="button"
+                            data-bs-dismiss="modal"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <div
+                            class="carousel slide"
+                            id="portrait_photosCap"
+                            data-bs-ride="carousel"
+                          >
+                            <div class="carousel-indicators">
+                              <button
+                                class="active"
+                                type="button"
+                                data-bs-target="#portrait_photosCap"
+                                data-bs-slide-to="0"
+                                aria-current="true"
+                              ></button>
+                              <button
+                                type="button"
+                                data-bs-target="#portrait_photosCap"
+                                data-bs-slide-to="1"
+                              ></button>
+                              <button
+                                type="button"
+                                data-bs-target="#portrait_photosCap"
+                                data-bs-slide-to="2"
+                              ></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img
+                                  src="https://source.unsplash.com/weekly?portrait/yellow"
+                                  alt=""
+                                  class="d-block w-100"
+                                />
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>First Slide</h5>
+                                  <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Provident, dolorum?
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img
+                                  src="https://source.unsplash.com/weekly?portrait//red"
+                                  alt=""
+                                  class="d-block w-100"
+                                />
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Second Slide</h5>
+                                  <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Provident, dolorum?
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img
+                                  src="https://source.unsplash.com/weekly?portrait"
+                                  alt=""
+                                  class="d-block w-100"
+                                />
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Third Slide</h5>
+                                  <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Provident, dolorum?
+                                  </p>
+                                </div>
+                              </div>
+                    </div>
+                    <button type="button" 
+                    class="carousel-control-prev" data-bs-target="#portrait_photosCap" 
+                    data-bs-slide="prev"
+                    >
+                  <span class="carousel-control-prev-icon"></span>
+                  </button>
+                    <button type="button" 
+                    class="carousel-control-next" data-bs-target="#portrait_photosCap" 
+                    data-bs-slide="next"
+                    >
+                  <span class="carousel-control-next-icon"></span>
+                                     </button>
+                  </div>
+                </div>
 
-    <!-- TODO: MAIN > EXPERIENCE -->
-    <!-- TODO: MAIN > EXPERIENCE > TITLE -->
-    <!-- TODO: MAIN > EXPERIENCE > PHOTOS -->
+                <div>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum tempora facere harum id, architecto sit illo quae placeat eveniet illum, perferendis maiores blanditiis ullam ipsam iste suscipit, ipsa nihil. Deserunt!</p>
 
-    <!-- TODO: MAIN > PORTOFOLIO -->
+
+
+<buto>                 <span>alex</span></buto>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TODO: MAIN > PORTOFOLIO -->
+    </main>
 
     <!-- TODO: FOOTER -->
     <!-- JavaScript Bundle with Popper -->
